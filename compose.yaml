@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: 'mysql:8.0.22'
+    environment:
+      - 'MYSQL_ROOT_PASSWORD=root'
+      - 'MYSQL_DATABASE=revename'
+      - 'MYSQL_USER=revename-user'
+      - 'MYSQL_PASSWORD=revename-password'
+    ports:
+      - '3306'
+    expose:
+      - '3306'

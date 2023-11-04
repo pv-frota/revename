@@ -1,0 +1,1 @@
+INSERT INTO Desenvolvedor VALUES(1, 'Pedro Victor');
