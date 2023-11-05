@@ -1,4 +1,5 @@
 CREATE SCHEMA IF NOT EXISTS revename;
+use revename;
 CREATE TABLE Cliente (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR (255),

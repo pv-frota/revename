@@ -15,7 +15,7 @@ public class Cliente {
     private String descricao;
     private Integer diaPadraoFaturamento;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "cliente_final_id")
     private Cliente clienteFinal;
 }
